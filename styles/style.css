@@ -1,0 +1,169 @@
+*{
+    font-family: 'Outfit';
+    font-style: normal;
+    margin: 0;
+    
+    padding: 0;
+}
+body{
+
+    background-image: url("../images/gta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+img{
+    user-select: none;
+}
+.link{
+    text-decoration: none
+}
+.list{
+    list-style: none;
+}
+.navigation{
+    display: flex;
+}
+.logo{
+    margin-top: 39px;
+    margin-left: 95px;
+    width: 159px;
+    height: 56px;
+    background-size: cover;
+    display: flex;
+  
+    align-items: center;
+}
+.logo-span{
+    padding-left: 6px;
+}
+.logo-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin:0;
+}
+.logo-subtitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin:0;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    width: 712px;
+    margin-left: auto;
+    margin-top: 46px;
+    margin-right: 137px;
+    padding: 0;
+}
+.pages-style{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+.pages-reg{
+    background: #FFE600;
+    border-radius: 19px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    color: black;
+}
+.section-one{
+    display: flex;
+}
+.social{
+    width: 62px;
+    margin-top: 76px;
+    margin-left: 88px;
+}
+.text-box{
+    width: 732px;
+    min-height: 380px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    font-family: 'Outfit';
+    font-style: normal;
+    padding-top: 51px;
+    padding-left: 32px;
+    margin-left: auto;
+    margin-right: 137px;
+    margin-top: 90px;
+}
+.text-box-h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.text-box-h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.text-box-h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.flex{
+    display: flex;
+}
+.hero-img{
+    margin-top: -220px;
+}
+
+
+.information{
+    font-family: 'Outfit';
+    font-style: normal;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 17px;
+    width: 395px;
+    height: 115px;
+    display: flex;
+    margin-top: 42px;
+
+}
+.info>.information{
+    margin-left: 58px;
+}
+.info>.information+.information{
+    margin-left: 142px;
+}
+.info>.information+.information+.information{
+    margin-left: 232px;
+}
+.information-image{
+    width: 57px;
+    height: 53px;
+    padding-top: 28px;
+    padding-left: 19px;
+}
+.information-span{
+    margin-top: 15px;
+    margin-left: 14px;
+}
+.information-title{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+.information-subtitle{
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 13px;
+
+}
