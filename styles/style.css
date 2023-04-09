@@ -167,3 +167,68 @@ img{
     line-height: 13px;
 
 }
+@media only screen and (max-width: 600px) {
+    .logo {
+    margin-top: 16px;
+    margin-left: 20px;
+    width: 120px;
+    height: 42px;
+    }
+    .pages {
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0;
+    }
+    .pages-style {
+    font-size: 20px;
+    line-height: 25px;
+    }
+    .pages-reg {
+    font-size: 16px;
+    border-radius: 13px;
+    padding: 8px 14px;
+    }
+    .section-one {
+    flex-direction: column;
+    align-items: center;
+    }
+    .social {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    }
+    .text-box {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    }
+    .text-box-h1 {
+    font-size: 36px;
+    line-height: 45px;
+    }
+    .text-box-h2 {
+    font-size: 28px;
+    line-height: 35px;
+    }
+    .text-box-h3 {
+    font-size: 16px;
+    line-height: 20px;
+    }
+    .information {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    flex-direction: column;
+    }
+    .info > .information {
+    margin-left: 0;
+    }
+    .info > .information + .information {
+    margin-left: 0;
+    }
+    .info > .information + .information + .information {
+    margin-left: 0;
+    }
+    }
